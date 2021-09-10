@@ -2,7 +2,7 @@
 
 set exe=gentools\protoc-client.exe
 set inPath=proto\
-set outPath=..\..\UnityFramework\Assets\Scripts\PB\
+set outPath=..\..\UnityClient\Assets\UnityFramework\Scripts\PB\
 
 @REM for /f "delims=" %%i in ('dir /b proto "Proto/*.proto"') do %Path% -i:Proto/%%i -o:../../project-s-client/Assets/Scripts/Hotfix/NetProxy/Messages/%%~ni.cs
 

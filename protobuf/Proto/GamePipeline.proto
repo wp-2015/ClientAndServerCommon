@@ -18,3 +18,18 @@ message S2CTestMessage
 	repeated    	int32         testInts  	= 3;
 	repeated	TestStruct 		testStructs	= 4;
 }
+
+message C2SJoin
+{
+}
+
+message S2CMapInit
+{
+	int32			MapRow			= 1;
+	repeated int32	MapRandSeeds	= 2;
+}
+
+message S2CMapRand
+{
+	int32			LineRandSeed	= 1;
+}
